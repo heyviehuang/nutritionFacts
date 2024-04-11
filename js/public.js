@@ -1,3 +1,5 @@
+/*調整Card寬高*/
+
 document.getElementById('resize-btn').addEventListener('click', function() {
     const width = document.getElementById('card-width').value;
     const height = document.getElementById('card-height').value;

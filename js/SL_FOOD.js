@@ -1,3 +1,5 @@
+/*黏在產品後方的成分表與營養標示*/
+
 var Airtable = require('airtable');
 var base = new Airtable({ apiKey: 'pat4b3gG0tow4cdAx.349ea6884fa7508315b49c77e526b09da8b8adee865d5c812da1abc09a3977ed' }).base('app5fvZeeyGvPdZdH');
 
