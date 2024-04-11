@@ -21,6 +21,7 @@ base('SL_FOOD').select({
                 cardContent.innerHTML = `
             <h3>${record.fields['品名'] || '未提供'}</h3>
             <p><strong>原料:</strong> ${record.fields['原料'] ? record.fields['原料'].join(', ') : '未提供'}</p>
+            <p><strong>淨重:</strong> ${record.fields['淨重'] || '淨重'}</p>
             <p><strong>有效期限:</strong> ${record.fields['有效期限'] || '未提供'}</p>
             <p><strong>產地:</strong> ${record.fields['產地'] || '未提供'}</p>
             <p><strong>注意事項:</strong> ${record.fields['注意事項'] || '未提供'}</p>
